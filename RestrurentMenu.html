@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restrurent Menu</title>
+    <style>
+        body{
+            background-color:white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            
+        }
+       .nav{
+            padding: 10px;
+            display: flex;
+            text-align: center;
+            justify-content: space-between;
+            border-radius: 1rem;
+        }
+        .nav a{
+            padding: 24px;
+            display: flex;
+            text-decoration: none;
+            color: rgb(60, 56, 56);
+           
+        }
+        .menu{
+            
+            color:rgb(35, 94, 182);
+        }
+        .header{
+            height: 450px;
+            margin-top: 15px;
+            margin-left: 50px;
+            margin-right: 50px;
+            background-image: url("./images/hederbg.png");
+            color: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 1rem;
+        }
+        .inside-header{
+            color: white;
+            padding: 30px;
+            text-align: left;
+            border-radius: 1rem;
+            margin-top: 20px;
+        }
+        .btn{
+            background-color:white;
+            color: rgb(65, 63, 63);
+            padding: 15px 35px;
+            border-radius: 25px;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        .continer{
+            height:auto;
+            background-color: rgb(248, 240, 240);
+            padding: 20px;
+            border-radius: 1rem;
+            text-align: center;
+        }
+        .card{
+            background-color: rgb(249, 248, 248);
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            display: inline-block;
+            width: 300px;
+        
+        }
+        .i{
+            width:300px;
+            height:200px;
+            border-radius: 1rem;
+        }
+        .foot{
+            height: 200px;
+            background-color:rgb(51, 47, 47);
+            color:white;
+            bottom:0;
+            position: relative;
+            text-align: center;
+        }
+        .foot .f{
+            padding: 10px;
+            font-size: 20px;
+        }
+        .foot hr{
+            width: 90%;
+            margin:auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <nav class="nav">
+            <h1 class="menu">Menu</h1>
+            <a class="a" href="#">Home</a>
+            <a class="a" href="#">Starters</a>
+            <a class="a" href="#">Main Course</a>
+            <a class="a" href="#">Desserts</a>
+            <a class="a" href="#">Contact</a>
+        </nav>
+    </div>
+    <header class="header">
+        <h1>Welcome to The Lalit's Dhaba</h1>
+        <div class="inside-header">
+            <h2>Order your favorit food   </h2>
+            <h2>form here</h2>
+            <p>Experience the authentic flavors of India at The Lalit's Dhaba.Our menu features a variety of traditional</p>
+            <p>dishes made with fresh ingredients and aromatic spices.Whether you're craving a hearty curry, flavorful</p>
+            <p>biryani, or delicious tandoori specialties,we have something for everyone. Join us for a memorable</p>
+            <p>dining experience that will transport your taste buds to the streets of India.</p>
+            <p></p>
+            <button class="btn">Explor Menu</button>
+        </div>
+    </header>
+    <div class="content">
+        <div class="continer">
+            <h1>Our Specials</h1>
+             <div class="card">
+                 <img src="./images/panner.jpg" class="i">
+                 <h2>Panner Butter Masala</h2>
+                 <p>creamy and rich panner butter masala with aromatic spices</p>
+             </div>
+
+            <div class="card">
+             <img src="./images/viryani.jpg" class="i">
+             <h2>Veg Biryani</h2>
+             <p>fragrant basmati rice cooked with mixed vegetables and spices</p>
+            </div>
+            
+            <div class="card">
+                <img src="./images/OIP3.webp" class="i">
+                <h2>Malai Kofta</h2>
+                <p>Soft vegetable dumplings in a rich, creamy tomato-cashew gravy.</p>
+            </div>
+
+            <div class="card">
+              <img src="./images/OPI4.jpg" class="i">
+              <h2>Masala Dosa</h2>
+              <p>Thin crispy crepe made from rice & lentils stuffed with spiced potato.</p>
+            </div>
+
+            <div class="card">
+              <img src="./images/OPI5.jpg" class="i">
+              <h2>Chole Bhature</h2>
+              <p>Spicy chickpea curry served with fluffy deep-fried bread.</p>
+            </div>
+
+            <div class="card">
+              <img src="./images/OPI6.jpg" class="i">
+              <h2>Idli Sambar</h2>
+              <p>Steamed rice cakes served with tangy sambar & coconut chutney.</p>
+            </div>
+
+            <div class="card">
+              <img src="./images/OPI7.jpg" class="i">
+              <h2>Rajma Chawal</h2>
+              <p>Red kidney beans curry paired with steamed basmati rice.</p>
+            </div>
+
+            <div class="card">
+              <img src="./images/OPI8.jpg" class="i">
+              <h2>Pav Bhaji</h2>
+              <p>Butter-toasted buns served with spicy mashed vegetable curry.</p>
+            </div>
+
+            <div class="card">
+              <img src="./images/OPI9.jpg" class="i">
+              <h2>Samosa</h2>
+              <p>Crispy fried pastry filled with spiced potatoes & peas.</p>
+            </div>
+
+            <div class="card">
+              <img src="./images/OPI10.jpg" class="i">
+              <h2>Palak Paneer</h2>
+              <p>Spinach curry cooked with soft cottage cheese cubes.</p>
+            </div>
+
+            <div class="card">
+              <img src="./images/OIP12.webp" class="i">
+              <h2>Gulab Jamun</h2>
+              <p>Soft fried milk dumplings soaked in sugar syrup.</p>
+            </div>
+
+            <div class="card">
+              <img src="./images/OPI11webp.webp" class="i">
+              <h2>Rasgulla</h2>
+              <p>Spongy cottage cheese balls dipped in light sugar syrup.</p>
+            </div>
+
+           <hr>
+        </div>
+    </div>
+    <footer class="foot">
+        <p>aa</p>
+        <p>aa</p>
+        <p>aa</p>
+        <hr>
+        <p class="f">&copy; 2025 The Lalit Dhaba| All rights reserved.</p>
+          
+    </footer>
+    <!-- <div class="btn">
+        <button href="#" class="b1">Dark theem</button>
+        <button href="#" class="b2">Light theem</button>
+    </div> -->
+</body>
+</html> 
