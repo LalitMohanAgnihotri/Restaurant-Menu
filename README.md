@@ -22,13 +22,6 @@ HTML5
 
 CSS3
 
-📁 project-folder
-│── index.html
-│── README.md
-└── images/
-    ├── panner.jpg
-    ├── biryani.jpg
-    ├── ...
 📸 Preview
 
 The page features:
