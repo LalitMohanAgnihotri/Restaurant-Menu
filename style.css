@@ -1,0 +1,87 @@
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+.nav {
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  border-radius: 1rem;
+}
+.nav a {
+  padding: 24px;
+  display: flex;
+  text-decoration: none;
+  color: rgb(60, 56, 56);
+}
+.menu {
+  color: rgb(35, 94, 182);
+}
+.header {
+  height: 450px;
+  margin-top: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-image: url("./images/hederbg.png");
+  color: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 1rem;
+}
+.inside-header {
+  color: white;
+  padding: 30px;
+  text-align: left;
+  border-radius: 1rem;
+  margin-top: 20px;
+}
+.btn {
+  background-color: white;
+  color: rgb(65, 63, 63);
+  padding: 15px 35px;
+  border-radius: 25px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.continer {
+  height: auto;
+  background-color: rgb(248, 240, 240);
+  padding: 20px;
+  border-radius: 1rem;
+  text-align: center;
+}
+.card {
+  background-color: rgb(249, 248, 248);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  display: inline-block;
+  width: 300px;
+}
+.i {
+  width: 300px;
+  height: 200px;
+  border-radius: 1rem;
+}
+.foot {
+  height: 200px;
+  background-color: rgb(51, 47, 47);
+  color: white;
+  bottom: 0;
+  position: relative;
+  text-align: center;
+}
+.foot .f {
+  padding: 10px;
+  font-size: 20px;
+}
+.foot hr {
+  width: 90%;
+  margin: auto;
+}
+.fp{
+   color:rgb(51, 47, 47);
+}
